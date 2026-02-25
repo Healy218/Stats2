@@ -22,8 +22,13 @@
 ## Initialization ##
 library(arrow)
 
-janTrips<-read_parquet('yellow_tripdata_2025-01.parquet')
-julyTrips<-read_parquet('yellow_tripdata_2025-07.parquet')
+# TaxiCab is the folder we are in then we "/" to go down into the folder
+# and read the parquet files for January and July 2025. 
+# Then when we read the parquet files we assign them to janTrips and julyTrips.
+# JanTrips and julyTrips are data frames that contain the data from the parquet files.
+janTrips<-read_parquet('TaxiCab/janTaxi2025.parquet')
+julyTrips<-read_parquet('TaxiCab/julyTaxi2025.parquet')
+
 
 summary(janTrips$trip_distance)
 summary(julyTrips$trip_distance)
