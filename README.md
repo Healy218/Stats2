@@ -7,7 +7,7 @@ To download click 'Code' in the upper right, and download as a zip file.
 Once downloaded, open the zip file in your downloads folder, this will open a new folder
 Drag the new "Stats3612 main" folder to your desktop
 
-For week 7, open the folder TaxiCab and right click TaxiCabRides.R -> Open with -> Rstudio
+For week 7, open the folder TaxiCab and right click NYC_taxi_data.R -> Open with -> Rstudio
 
 be sure to use the commands
 
