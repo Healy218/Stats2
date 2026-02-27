@@ -7,8 +7,8 @@ library(data.table)
 
 #READ IN DATA
 #Changed save files so they would be easier to read.
-taxi_trips_jan <- read_parquet('TaxiCab/janTaxi2025.parquet')
-taxi_trips_july <- read_parquet('TaxiCab/julyTaxi2025.parquet')
+taxi_trips_jan <- read_parquet('janTaxi2025.parquet')
+taxi_trips_july <- read_parquet('julyTaxi2025.parquet')
 
 
 ########## PROBLEM 1 ###################
