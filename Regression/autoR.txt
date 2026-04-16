@@ -1,4 +1,4 @@
-Auto <- read.csv("Auto.csv", header=T, na.strings="?")
+Auto <- read.csv("Regression/Auto.csv", header=T, na.strings="?")
 Auto <- na.omit(Auto)
 
 dim(Auto)
